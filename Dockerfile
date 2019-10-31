@@ -1,5 +1,5 @@
 # Basic image information
-FROM lem-dashboard
+FROM nginx
 
 # Maintainer  information
 MAINTAINER Promi5e <gaoxiang_f@163.com>
