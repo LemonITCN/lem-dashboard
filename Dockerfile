@@ -6,7 +6,9 @@ MAINTAINER Promi5e <gaoxiang_f@163.com>
 
 # Mirror operation instruction
 #RUN ['yarn build']
-RUN echo '<h1>Hello, Docker!</h1>' > index.html
+RUN echo '<h1>Hello, Docker!</h1>' > test.html
+
+COPY test.html .
 
 
 
